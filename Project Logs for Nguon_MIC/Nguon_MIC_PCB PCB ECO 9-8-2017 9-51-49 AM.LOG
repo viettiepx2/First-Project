@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=VCC Pin=R6-2
+Change Component Footprint: Designator=LED Old Footprint=LED-5mm New Footprint=LED_0805_Blue
+Change Component Comment : Designator=LED Old Comment=LED New Comment=LED SMD
+Added Component: Designator=Jp(jumper3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Open Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Date of Price"; Value = "19/11/2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part"; Value = "jumper selector"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "500 VND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Jp-1
+Added Pin To Net: NetName=VCC Pin=Jp-3
+Added Pin To Net: NetName=NetJp_2 Pin=Jp-2
+Added Pin To Net: NetName=NetJp_2 Pin=R6-2
+Added Net: Name=NetJp_2
+Added Member To Class: ClassName=Nguon_MIC_Sch Member=Component Jp Jumper SMD 3
+Added Room: Name=Nguon_MIC_Sch

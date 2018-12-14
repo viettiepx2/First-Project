@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=NetFET_1 Pin=FET-1
+Removed Pin From Net: NetName=NetFET_1 Pin=U1-11
+Added Component: Designator=Q1(TO-220)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q2(TO-220)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q3(TO-220)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VCC Pin=Q1-2
+Added Pin To Net: NetName=NetFET_1 Pin=Q1-3
+Added Pin To Net: NetName=VCC Pin=Q2-2
+Added Pin To Net: NetName=NetFET_1 Pin=Q2-3
+Added Pin To Net: NetName=VCC Pin=Q3-2
+Added Pin To Net: NetName=NetFET_1 Pin=Q3-3
+Change Net Name : Old Net Name=NetFET_1 New Net Name=NetQ1_3
+Change Net Name : Old Net Name=NetFET_3 New Net Name=Source
+Added Pin To Net: NetName=Gate Pin=FET-1
+Added Pin To Net: NetName=Gate Pin=Q1-1
+Added Pin To Net: NetName=Gate Pin=Q2-1
+Added Pin To Net: NetName=Gate Pin=Q3-1
+Added Pin To Net: NetName=Gate Pin=U1-11
+Added Net: Name=Gate
+Added Member To Class: ClassName=Nguon_MIC_Sch Member=Component Q1 IRF3205
+Added Member To Class: ClassName=Nguon_MIC_Sch Member=Component Q2 IRF3205
+Added Member To Class: ClassName=Nguon_MIC_Sch Member=Component Q3 IRF3205
+Added Room: Name=Nguon_MIC_Sch

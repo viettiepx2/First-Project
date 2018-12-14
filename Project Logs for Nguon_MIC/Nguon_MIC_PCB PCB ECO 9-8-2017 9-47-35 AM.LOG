@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=NetR2_2 Pin=RV1-1
+Removed Pin From Net: NetName=NetR2_2 Pin=RV1-2
+Removed Pin From Net: NetName=NetR1_2 Pin=RV1-3
+Removed Member From Class: ClassName=Nguon_MIC_Sch Member=RV1
+Change Component Footprint: Designator=FET Old Footprint=BIG_Header 3 New Footprint=Header 3 - 150mil
+Change component parameters: Designator = "FET"; Footprint = "Header 3 - 150mil"; UniqueID = "\PWWJYVOX"
+Change component parameters. Clean all parameters for all variants
+Added Component: Designator=VR(Header 3 - 150mil)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetR1_2 Pin=VR-1
+Added Pin To Net: NetName=NetR2_2 Pin=VR-2
+Added Pin To Net: NetName=NetR2_2 Pin=VR-3
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=C6-2
+Added Net: Name=NetC4_2
+Added Member To Class: ClassName=Nguon_MIC_Sch Member=Component VR Header 3
